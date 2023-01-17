@@ -745,6 +745,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91ef65470bc5141d9ace041f25ad3df5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  turnSpeed: 0
   player: {fileID: 597293642}
 --- !u!1 &551414994 stripped
 GameObject:
@@ -841,7 +843,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 130e339fd0a8a4ca894aa62b78f92462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
+  turnSpeed: 5
+  horizontalInput: 5
 --- !u!54 &597293648
 Rigidbody:
   m_ObjectHideFlags: 0
